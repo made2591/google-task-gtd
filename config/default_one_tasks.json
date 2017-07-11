@@ -1,0 +1,153 @@
+{ "task_list":
+	{
+		"Bike ride now!" : {
+				"task_type" : 9,
+				"probability" :0.0,
+				"slot_duration" :100,
+				"importance" :0,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 3, "early_afternoon" : 3, "afternoon" : 3, "late_afternoon" : 5, "early_evening" : 1, "evening" : 1, "late_evening" : 1 },
+				"description" : "Sync a playlist on Spotify, go on runtastic, download an itinerary and start jogging!"
+			},
+		"Get ideas on what you're doing" : {
+				"task_type" : 10,
+				"probability" :0.0,
+				"slot_duration" :5,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 3, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 4, "evening" : 3, "late_evening" : 2 },
+				"description" : "It's always good to make the point of the situation: organize the tasks to reach your goals"
+			},
+		"Thesis (development)" : {
+				"task_type" : 0,
+				"probability" :0.0,
+				"slot_duration" :45,
+				"importance" :8,
+				"best_moment" : { "early_morning" : 2, "morning" : 6, "late_morning" : 5, "early_afternoon" : 3, "afternoon" : 4, "late_afternoon" : 1, "early_evening" : 1, "evening" : 0, "late_evening" : 0 },
+				"description" : "Go ahead to develop"
+			},
+		"World News time!" : {
+				"task_type" : 5,
+				"probability" :0.0,
+				"slot_duration" :15,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 6, "morning" : 2, "late_morning" : 6, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 3, "evening" : 3, "late_evening" : 4 },
+				"description" : "It's always good to be aware of what's going on in the world"
+			},
+		"Tech News time!" : {
+				"task_type" : 5,
+				"probability" :0.0,
+				"slot_duration" :15,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 3, "morning" : 2, "late_morning" : 3, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 3, "evening" : 3, "late_evening" : 4 },
+				"description" : "Nerd herd time"
+			},
+		"Listen to some old music" : {
+				"task_type" : 8,
+				"probability" :0.0,
+				"slot_duration" :15,
+				"importance" :3,
+				"best_moment" : { "early_morning" : 4, "morning" : 2, "late_morning" : 3, "early_afternoon" : 1, "afternoon" : 2, "late_afternoon" : 3, "early_evening" : 4, "evening" : 2, "late_evening" : 4 },
+				"description" : "News and Nerd Things: Look for a Gift, Assemble a PC, or just read some news"
+			},
+		"Listen to something new" : {
+				"task_type" : 8,
+				"probability" :0.0,
+				"slot_duration" :15,
+				"importance" :3,
+				"best_moment" : { "early_morning" : 4, "morning" : 2, "late_morning" : 3, "early_afternoon" : 1, "afternoon" : 2, "late_afternoon" : 3, "early_evening" : 4, "evening" : 2, "late_evening" : 4 },
+				"description" : "Vai su qualche sito di musica, recupera qualche chart, Listen to something new...può essere di ispirazione"
+			},
+		"Thesis (writing)" : {
+				"task_type" : 0,
+				"probability" :0.0,
+				"slot_duration" :20,
+				"importance" :8,
+				"best_moment" : { "early_morning" : 2, "morning" : 4, "late_morning" : 1, "early_afternoon" : 5, "afternoon" : 4, "late_afternoon" : 3, "early_evening" : 2, "evening" : 0, "late_evening" : 0 },
+				"description" : "It's time to describe the work done on MATLAB: good luck"
+			},
+		"Develop something for you" : {
+				"task_type" : 11,
+				"probability" :0.0,
+				"slot_duration" :40,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 4, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 3, "early_evening" : 3, "evening" : 3, "late_evening" : 3 },
+				"description" : "Keeps ahead of GTasker's development branch"
+			},
+		"Keep your project ahead" : {
+				"task_type" : 10,
+				"probability" :0.0,
+				"slot_duration" :40,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 4, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 3, "early_evening" : 3, "evening" : 3, "late_evening" : 3 },
+				"description" : "Think about features for GoogleTask app (music, movies, movies, TVShows, weather)"
+			},
+		"What do you do tomorrow?" : {
+				"task_type" : 6,
+				"probability" :0.0,
+				"slot_duration" :10,
+				"importance" :1,
+				"best_moment" : { "early_morning" : 1, "morning" : 2, "late_morning" : 3, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 3, "evening" : 2, "late_evening" : 1 },
+				"description" : "Do you organize tomorrow's day: gym? study? evening? Hear who you have to hear, search online"
+			},
+		"Ideas for the weekend?" : {
+				"task_type" : 6,
+				"probability" :0.0,
+				"slot_duration" :10,
+				"importance" :1,
+				"best_moment" : { "early_morning" : 1, "morning" : 2, "late_morning" : 3, "early_afternoon" : 2, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 3, "evening" : 2, "late_evening" : 1 },
+				"description" : "Organize saturday evening: romantic dinner or appointment with old knowledge?"
+			},
+		"Download a movie or an episode" : {
+				"task_type" : 7,
+				"probability" :0.0,
+				"slot_duration" :10,
+				"importance" :1,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 3, "early_afternoon" : 4, "afternoon" : 4, "late_afternoon" : 4, "early_evening" : 4, "evening" : 3, "late_evening" : 1 },
+				"description" : "Update the list of movies and episodes available in arretrate: at another time, it may be useful to have something ready to be seen"
+			},
+		"Download a book" : {
+				"task_type" : 7,
+				"probability" :0.0,
+				"slot_duration" :10,
+				"importance" :1,
+				"best_moment" : { "early_morning" : 1, "morning" : 3, "late_morning" : 3, "early_afternoon" : 4, "afternoon" : 4, "late_afternoon" : 4, "early_evening" : 4, "evening" : 3, "late_evening" : 1 },
+				"description" : "There are also charts on the books: so discover the pleasure of reading, find a saga and change your world for a while"
+			},
+		"Get out and make a run" : {
+				"task_type" : 9,
+				"probability" :0.0,
+				"slot_duration" :60,
+				"importance" :0,
+				"best_moment" : { "early_morning" : 3, "morning" : 2, "late_morning" : 3, "early_afternoon" : 1, "afternoon" : 2, "late_afternoon" : 4, "early_evening" : 5, "evening" : 1, "late_evening" : 1 },
+				"description" : "Just stop. Give yourself some time to run."
+			},
+		"Work out a little at home" : {
+				"task_type" : 9,
+				"probability" :0.0,
+				"slot_duration" :20,
+				"importance" :3,
+				"best_moment" : { "early_morning" : 3, "morning" : 1, "late_morning" : 3, "early_afternoon" : 1, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 4, "evening" : 1, "late_evening" : 1 },
+				"description" : "Abs time"
+			},
+		"Watch an episode" : {
+				"task_type" : 2,
+				"probability" :0.0,
+				"slot_duration" :45,
+				"importance" :3,
+				"best_moment" : { "early_morning" : 3, "morning" : 1, "late_morning" : 2, "early_afternoon" : 2, "afternoon" : 1, "late_afternoon" : 5, "early_evening" : 5, "evening" : 5, "late_evening" : 3 },
+				"description" : "TV Showtime",
+				"other_names" :[],
+				"max_qty" :90
+			},
+		"Read a book" : {
+				"task_type" : 1,
+				"probability" :0.0,
+				"slot_duration" :30,
+				"importance" :2,
+				"best_moment" : { "early_morning" : 1, "morning" : 2, "late_morning" : 1, "early_afternoon" : 3, "afternoon" : 3, "late_afternoon" : 4, "early_evening" : 1, "evening" : 1, "late_evening" : 5 },
+				"description" : "It's time to change habits ... reading a little more never hurts",
+				"other_names" :[],
+				"max_qty" :60
+			}
+	}
+}
+

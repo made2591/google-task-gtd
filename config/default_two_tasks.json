@@ -1,0 +1,114 @@
+{
+    "task_list" : {
+        "Project 1": {
+            "slot_duration": 20,
+            "importance": 8,
+            "probability": 0.0,
+            "task_type": 1,
+            "best_moment": {
+                "afternoon": 4,
+                "evening": 0,
+                "early_afternoon": 3,
+                "early_morning": 2,
+                "late_afternoon": 1,
+                "early_evening": 1,
+                "late_evening": 0,
+                "late_morning": 5,
+                "morning": 6
+            },
+            "description" : "Project 1",
+            "other_names" : 60,
+            "max_qty" : 60
+        },
+        "Project 2": {
+            "slot_duration": 15,
+            "importance": 2,
+            "probability": 0.0,
+            "task_type": 1,
+            "best_moment": {
+                "afternoon": 3,
+                "evening": 1,
+                "early_afternoon": 3,
+                "early_morning": 1,
+                "late_afternoon": 4,
+                "early_evening": 1,
+                "late_evening": 5,
+                "late_morning": 1,
+                "morning": 2
+            },
+            "description" : "Project 2"
+        },
+        "Project 3": {
+            "slot_duration": 45,
+            "importance": 3,
+            "probability": 0.0,
+            "task_type": 1,
+            "best_moment": {
+                "afternoon": 1,
+                "evening": 5,
+                "early_afternoon": 2,
+                "early_morning": 3,
+                "late_afternoon": 5,
+                "early_evening": 5,
+                "late_evening": 3,
+                "late_morning": 2,
+                "morning": 1
+            },
+            "description" : "Project 3"
+        },
+        "NewsFeed": {
+            "slot_duration": 10,
+            "importance": 2,
+            "probability": 0.0,
+            "task_type": 0,
+            "best_moment": {
+                "afternoon": 3,
+                "evening": 3,
+                "early_afternoon": 2,
+                "early_morning": 3,
+                "late_afternoon": 4,
+                "early_evening": 3,
+                "late_evening": 4,
+                "late_morning": 3,
+                "morning": 2
+            },
+            "description" : "Read news"
+        },
+        "NextDay Scheduling": {
+            "slot_duration": 10,
+            "importance": 1,
+            "probability": 0.0,
+            "task_type": 0,
+            "best_moment": {
+                "afternoon": 3,
+                "evening": 2,
+                "early_afternoon": 2,
+                "early_morning": 1,
+                "late_afternoon": 4,
+                "early_evening": 3,
+                "late_evening": 1,
+                "late_morning": 3,
+                "morning": 2
+            },
+            "description" : "Check scheduling"
+        },
+        "Brainstorming": {
+            "slot_duration": 15,
+            "importance": 2,
+            "probability": 0.0,
+            "task_type": 3,
+            "best_moment": {
+                "afternoon": 3,
+                "evening": 3,
+                "early_afternoon": 2,
+                "early_morning": 1,
+                "late_afternoon": 4,
+                "early_evening": 4,
+                "late_evening": 2,
+                "late_morning": 3,
+                "morning": 3
+            },
+            "description" : "Collect ideas"
+        }
+    }
+}

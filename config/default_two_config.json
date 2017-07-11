@@ -1,0 +1,134 @@
+{
+    "tasker_config": {
+        "minimum_activity_slot": 0.0,
+        "percentage_activity_slot": 0.8,
+        "all_act_name": [],
+		"default_slot_duration" : 10,
+        "day_timezone": {
+            "early_morning": "early_morning",
+            "morning": "morning",
+            "late_morning": "late_morning",
+            "early_afternoon": "early_afternoon",
+            "afternoon": "afternoon",
+            "late_afternoon": "late_afternoon",
+            "early_evening": "early_evening",
+            "evening": "evening",
+            "late_evening": "late_evening"
+        },
+        "day_timezone_ordered": [
+            "early_morning",
+            "morning",
+            "late_morning",
+            "early_afternoon",
+            "afternoon",
+            "late_afternoon",
+            "early_evening",
+            "evening",
+            "late_evening"
+        ],
+        "day_timezone_prec": [
+            "late_morning",
+            "late_afternoon"
+        ],
+        "day_timezone_post": [
+            "early_afternoon",
+            "early_evening"
+        ]
+    },
+    "google_calendar_config": {
+        "scopes": "https://www.googleapis.com/auth/calendar",
+        "client_secret_file": "./credentials/client_secret.json",
+        "application_name": "Gtasker",
+        "store": "./credentials/storage.json",
+        "gmt_off": "+01:00"
+    },
+    "default_time_start_working_day": "08:40",
+    "default_time_start_lunch": "13:00",
+    "default_time_end_lunch": "14:15",
+    "default_time_end_working_day": "18:00",
+    "default_time_start_dinner": "19:50",
+    "default_time_end_dinner": "20:30",
+    "default_time_end_day": "22:30",
+    "default_early": 0.25,
+    "default_central": 0.5,
+    "default_late": 0.25,
+	"default_activity_mode": 0,
+    "task_type_code" : {
+        "0" : "short task",
+        "1" : "working",
+        "2" : "relax",
+        "3" : "fitness"
+    },
+    "daymoment_activity_probability": {
+    },
+	"task_type_default": {
+		"0": {
+			"slot_duration": 10.0,
+			"importance": 1.0,
+			"probability": 0.0,
+			"task_type": 0,
+			"best_moment": {
+				"evening": 5.0,
+				"early_morning": 2.0,
+				"late_afternoon": 8.0,
+				"early_evening": 7.0,
+				"morning": 5.0,
+				"early_afternoon": 6.0,
+				"afternoon": 7.0,
+				"late_morning": 6.0,
+				"late_evening": 2.0
+			}
+		},
+		"1": {
+			"slot_duration": 45.0,
+			"importance": 8.0,
+			"probability": 0.0,
+			"task_type": 1,
+			"best_moment": {
+				"evening": 0.0,
+				"early_morning": 2.0,
+				"late_afternoon": 1.0,
+				"early_evening": 1.0,
+				"morning": 6.0,
+				"early_afternoon": 3.0,
+				"afternoon": 4.0,
+				"late_morning": 5.0,
+				"late_evening": 0.0
+			}
+		},
+		"2": {
+			"slot_duration": 25.0,
+			"importance": 2.0,
+			"probability": 0.0,
+			"task_type": 2,
+			"best_moment": {
+				"evening": 17.0,
+				"early_morning": 13.0,
+				"late_afternoon": 23.0,
+				"early_evening": 20.0,
+				"morning": 13.0,
+				"early_afternoon": 12.0,
+				"afternoon": 15.0,
+				"late_morning": 16.0,
+				"late_evening": 21.0
+			}
+		},
+		"3": {
+			"slot_duration": 60.0,
+			"importance": 1.0,
+			"probability": 0.0,
+			"task_type": 3,
+			"best_moment": {
+				"evening": 3.0,
+				"early_morning": 7.0,
+				"late_afternoon": 13.0,
+				"early_evening": 10.0,
+				"morning": 6.0,
+				"early_afternoon": 5.0,
+				"afternoon": 8.0,
+				"late_morning": 9.0,
+				"late_evening": 3.0
+			}
+		}
+	}
+}
